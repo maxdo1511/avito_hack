@@ -1,0 +1,8 @@
+{
+  "kafka_server": "92.53.99.143",
+  "kafka_port": 29093,
+  "kafka_topic": "my-topic",
+  "kafka_group": "my-group",
+  "kafka_offset": "earliest",
+  "kafka_partition": 0
+}

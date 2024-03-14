@@ -1,0 +1,7 @@
+C:\Users\MyUser\RiderProjects\UserApiService\UserApiService\obj\Debug\net8.0\UserApiService.csproj.AssemblyReference.cache
+C:\Users\MyUser\RiderProjects\UserApiService\UserApiService\obj\Debug\net8.0\UserApiService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MyUser\RiderProjects\UserApiService\UserApiService\obj\Debug\net8.0\UserApiService.AssemblyInfoInputs.cache
+C:\Users\MyUser\RiderProjects\UserApiService\UserApiService\obj\Debug\net8.0\UserApiService.AssemblyInfo.cs
+C:\Users\MyUser\RiderProjects\UserApiService\UserApiService\obj\Debug\net8.0\UserApiService.csproj.CoreCompileInputs.cache
+C:\Users\MyUser\RiderProjects\UserApiService\UserApiService\obj\Debug\net8.0\UserApiService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\MyUser\RiderProjects\UserApiService\UserApiService\obj\Debug\net8.0\UserApiService.MvcApplicationPartsAssemblyInfo.cache

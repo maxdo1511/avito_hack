@@ -1,0 +1,44 @@
+syntax = "proto3";
+
+option java_package = "github.galtap.rgpc";
+enum TableType {
+  BASELINE_MATRIX = 0;
+  DISCOUNT_MATRIX = 1;
+}
+
+message Matrix {
+  MatrixId matrixId = 1;
+  int32 price = 2;
+
+}
+
+message MatrixId{
+  TableType tableType = 1;
+  int32 microCategoryId = 2;
+  int32 locationCategoryId = 3;
+}
+
+message RequestState {
+  int32 messageState = 1;
+}
+
+
+message MatrixPriceResponse {
+  int32 price = 1;
+}
+
+message MatrixList {
+  repeated Matrix matrix = 1;
+}
+message Empty {
+
+}
+
+service MatrixPriceService {
+  rpc addPrice(Matrix) returns (RequestState);
+  rpc updatePrice(Matrix) returns (RequestState);
+  rpc deletePrice(MatrixId) returns (RequestState);
+  rpc getPrice(MatrixId) returns (Matrix);
+  rpc getAllPrices(Empty) returns (MatrixList);
+
+}
